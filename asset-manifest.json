@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/nvidia/static/css/main.583e4490.css",
+    "main.js": "/nvidia/static/js/main.8b49bd0c.js",
+    "static/js/787.acd304d0.chunk.js": "/nvidia/static/js/787.acd304d0.chunk.js",
+    "static/media/banner3.jpg": "/nvidia/static/media/banner3.44e93f6c035f9622430b.jpg",
+    "static/media/banner1.jpg": "/nvidia/static/media/banner1.e31e4f2b0756a28f2cc9.jpg",
+    "static/media/banner2.jpg": "/nvidia/static/media/banner2.06649c3e62f81512ddba.jpg",
+    "static/media/banner4.jpg": "/nvidia/static/media/banner4.fbe556450932349a5507.jpg",
+    "static/media/banner5.jpg": "/nvidia/static/media/banner5.d7bf5baedc20177965f5.jpg",
+    "index.html": "/nvidia/index.html",
+    "main.583e4490.css.map": "/nvidia/static/css/main.583e4490.css.map",
+    "main.8b49bd0c.js.map": "/nvidia/static/js/main.8b49bd0c.js.map",
+    "787.acd304d0.chunk.js.map": "/nvidia/static/js/787.acd304d0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.583e4490.css",
+    "static/js/main.8b49bd0c.js"
+  ]
+}
