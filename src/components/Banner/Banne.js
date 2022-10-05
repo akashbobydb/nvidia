@@ -1,22 +1,25 @@
 import React from 'react'
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
-import img1 from '../assets/banner1.jpg'
-import img2 from '../assets/banner2.jpg'
+import './banne.css'
+import img1 from '../assets/b1.webp'
+import img2 from '../assets/try2.png'
 import img3 from '../assets/banner3.jpg'
 import img4 from '../assets/banner4.jpg'
 import img5 from '../assets/banner5.jpg'
+import img6 from '../assets/founder.jpg'
+
 
 function Banne() {
   return (
-    <>
-        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+    <div className='ban'>
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
-    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 5"></button>
+    <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="4" aria-label="Slide 5"></button>
   </div>
   <div>
   <div class="carousel-inner ">
@@ -24,9 +27,9 @@ function Banne() {
       <img src={img1} height={650} class="d-block w-100" s alt="grass"/>
       <div class="carousel-caption d-none d-md-block ">
         <div className='banner-position'>
-        <h3 class='display-1'> NVIDIA</h3>
-        <p class="blockquote">Pionered Accelerated Computing to Tackle Challenges No One Else can Solve. </p>
-        <button type="button" class="btn btn-success rounded-top">Read</button>
+        <h3 class='display-1' style={{color:"	#8fce00"}}> NVIDIA</h3>
+        <p class="blockquote " id='b1'>Pionered Accelerated Computing to Tackle Challenges No One Else can Solve. </p>
+        <button type="button" class="btn btn-success  round-corners">Learn More</button>
         </div>
       </div>
     </div>
@@ -37,11 +40,16 @@ function Banne() {
         <p>Some representative placeholder content for the second slide.</p>
       </div>
     </div>
-    <div class="carousel-item">
+    <div class="carousel-item" data-bs-interval="2000">
       <img src={img3} height={650} class="d-block w-100" alt="rtx"/>
       <div class="carousel-caption d-none d-md-block">
-        <h5>Third slide label</h5>
-        <p>Some representative placeholder content for the third slide.</p>
+      <div className='banner-position3'>
+      <h3 class='display-1'>GeForce® 4090 Experience™</h3>
+        <p id='b1'>Maak en deel video's, screenshots en livestreams met vrienden. Houd je stuurprogramma's up-to-date en optimaliseer je
+           game-instellingen. Met GeForce Experience™ heb je oneindig veel mogelijkheden, waardoor het een onmisbare aanvulling voor je 
+           GeForce®-grafische kaart is.
+        </p>
+        </div>
       </div>
     </div>
     <div class="carousel-item" data-bs-interval="2000">
@@ -54,22 +62,29 @@ function Banne() {
     <div class="carousel-item" data-bs-interval="2000">
       <img src={img5} height={650} class="d-block w-100" alt="canvas"/>
       <div class="carousel-caption d-none d-md-block">
-        <h5>Second slide label</h5>
-        <p>Some representative placeholder content for the second slide.</p>
+      <div className='banner-position'>
+      <h3 class='display-1'> NVIDIA</h3>
+        <h3> Grace Hopper Superchip</h3>
+        <p>Researchers, scientists embrace NVIDIA platform for quantum algorithms, simulations and classical-quantum compute.</p>
+        </div>
       </div>
     </div>
   </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
 </div>
     </div>
-    </>
+    <br/>
+    <div className='fnder'>
+      <img src={img6} height='300px' width='400px' id='fnd-img' s alt="grass"/>
+        <div className='fnder-position'>
+          <h1>Don’t Miss the GTC Keynote</h1>
+        <h3>Jensen Huang | Founder and CEO | NVIDIA </h3>
+        <p class="blockquote">Take a closer look at the game-changing technologies that are<br/> helping us 
+        take on the world’s greatest challenges. </p>
+        <button type="button" class="btn btn-success rounded-top">watch now</button>
+        </div>
+      </div><br/>
+      
+    </div>
   )
 }
 
