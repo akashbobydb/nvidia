@@ -1,6 +1,6 @@
 import {useState} from 'react';
 import AccountCircleOutlinedIcon from '@mui/icons-material/AccountCircleOutlined';
-import './avatar.css'
+import '../AvatarUser/avatar.css'
 const App = () => {
   const [isHovering, setIsHovering] = useState(false);
 
@@ -19,13 +19,13 @@ const App = () => {
           <AccountCircleOutlinedIcon/>
         </div>
 
-        {isHovering && (
+        {isHovering ? (
           <div className='avatar-position'>
-           
             <p>Nvidia Account</p>
             <p>Nvidia Store Account</p>
           </div>
-        )}
+        )
+      :null}
       </div>
     </div>
   );

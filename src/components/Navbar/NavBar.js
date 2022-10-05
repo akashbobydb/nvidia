@@ -1,9 +1,10 @@
 import React from 'react'
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
-import './navbar.css'
-import SearchIcon from './SearchIcon';
-import AvatarUser from './AvatarUser';
+import '../Navbar/navbar.css'
+import SearchIcon from '../SearchIcon/SearchIcon';
+import AvatarUser from '../AvatarUser/AvatarUser';
+import logo from '../assets/logo.png'
 
 function NavBar() {
   return (
@@ -13,7 +14,7 @@ function NavBar() {
     <div class="collapse navbar-collapse nav" id="navbarNav ">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active pt-1" aria-current="page" href="#"><img src='logo.png' width="80px" height={30}/></a>
+          <a class="nav-link active pt-1" aria-current="page" href="#"><img src={logo} width="80px" height={30}/></a>
         </li>
         <li class="nav-item">
           <a class="nav-link ps-4 " href="#">Products</a>

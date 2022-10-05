@@ -1,7 +1,7 @@
 import {React,useState} from 'react'
 import SearchOutlinedIcon from '@mui/icons-material/SearchOutlined';
 import CloseOutlinedIcon from '@mui/icons-material/CloseOutlined';
-import './searchicon.css'
+import '../SearchIcon/searchicon.css'
 function SearchIcon() {
     const [isActive, setIsActive] = useState(false);
   return (
@@ -17,8 +17,7 @@ function SearchIcon() {
       </div></div>
 
     <div className="cursor-pointer select-none">
-      {isActive ? <div className='search-icon' onClick={()=>{
-       setIsActive(!isActive)}}><input type="text" /></div>:
+      {isActive ? <div className='search-icon'><input type="text" /></div>:
          <div onClick={()=>{
        setIsActive(!isActive)}}></div>}
      </div>

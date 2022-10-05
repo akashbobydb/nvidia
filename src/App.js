@@ -1,6 +1,6 @@
 import './App.css';
-import NavBar from './components/NavBar';
-import Banne from './components/Banne'
+import NavBar from './components/Navbar/NavBar';
+import Banne from './components/Banner/Banne'
 
 function App() {
   return (

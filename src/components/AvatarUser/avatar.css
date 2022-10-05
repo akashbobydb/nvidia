@@ -2,5 +2,9 @@
     width: 160px;
     right: 10px;
     position: absolute;
-    top:65px
+    display: flexbox;
+    z-index: 3;
+    top:65px;
+    
+    z-index: 10;
 }

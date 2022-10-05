@@ -1,11 +1,11 @@
 import React from 'react'
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
-import img1 from '../images/banner1.jpg'
-import img2 from '../images/banner2.jpg'
-import img3 from '../images/banner3.jpg'
-import img4 from '../images/banner4.jpg'
-import img5 from '../images/banner5.jpg'
+import img1 from '../assets/banner1.jpg'
+import img2 from '../assets/banner2.jpg'
+import img3 from '../assets/banner3.jpg'
+import img4 from '../assets/banner4.jpg'
+import img5 from '../assets/banner5.jpg'
 
 function Banne() {
   return (
@@ -19,7 +19,7 @@ function Banne() {
     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 5"></button>
   </div>
   <div>
-  <div class="carousel-inner">
+  <div class="carousel-inner ">
     <div class="carousel-item active" data-bs-interval="10000" >
       <img src={img1} height={650} class="d-block w-100" s alt="grass"/>
       <div class="carousel-caption d-none d-md-block ">
