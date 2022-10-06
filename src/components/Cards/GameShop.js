@@ -137,6 +137,7 @@ function GameShop() {
           </div>
         </div>
       </div>
+      <br/><br/>
     </div>
   );
 }

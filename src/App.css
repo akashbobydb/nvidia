@@ -1,3 +1,7 @@
-body::-webkit-scrollbar{
+/* body::-webkit-scrollbar{
   display: none;
+  z-index: 10000000;
+} */
+body::-webkit-scrollbar-button{
+  scroll-behavior: smooth;
 }

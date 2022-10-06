@@ -20,9 +20,10 @@ const App = () => {
         </div>
 
         {isHovering ? (
-          <div className='avatar-position'>
-            <p>Nvidia Account</p>
-            <p>Nvidia Store Account</p>
+          <div className='avatar-position'><b><p>Nvidia Account</p></b>
+          <b> <p>Nvidia Store Account</p></b>
+            
+           
           </div>
         )
       :null}
