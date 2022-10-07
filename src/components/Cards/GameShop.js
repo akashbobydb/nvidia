@@ -18,7 +18,7 @@ function GameShop() {
       <h1 style={{ textAlign: "center" }}>
         <b>Gaming</b>
       </h1><br/>
-      <div class="container">
+      <div class="container card-pos">
         <div class="row row-cols-1 row-cols-md-4 g-4">
           <div class="col ">
             <div class="card border">
@@ -74,7 +74,7 @@ function GameShop() {
         <h1 style={{ textAlign: "center" }}>
           <b>SHOPS</b>
         </h1><br/>
-        <div class="container">
+        <div class="container card-pos">
           <div class="row row-cols-1 row-cols-md-4 g-4">
             <div class="col ">
               <div class="card shop-height">

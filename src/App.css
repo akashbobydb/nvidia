@@ -2,6 +2,23 @@
   display: none;
   z-index: 10000000;
 } */
-body::-webkit-scrollbar-button{
-  scroll-behavior: smooth;
+/* body {
+  
+  scrollbar-color: rgb(153, 153, 153) rgb(51, 51, 51);
 }
+body::-webkit-scrollbar {
+  overflow-y: hidden;
+  width: 10px; 
+  height: 10px; 
+}
+body::-webkit-scrollbar-thumb { 
+  background: #999;
+}
+body::-webkit-scrollbar-track { 
+  background: #333;
+}
+body{
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  overflow-y: none;
+} */

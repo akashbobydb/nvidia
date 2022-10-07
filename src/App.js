@@ -4,7 +4,6 @@ import Banne from './components/Banner/Banne'
 import LatestNews from './components/Cards/LatestNews';
 import GameShop from './components/Cards/GameShop';
 import Footer from './components/Footer/Footer';
-
 function App() {
   return (
     <div >
@@ -13,6 +12,7 @@ function App() {
       <LatestNews/>
       <GameShop/>
       <Footer/>
+      {/* <Subfooter/> */}
     </div>
   );
 }

@@ -102,5 +102,18 @@ ul{
 	padding-left: 20px;
 	color: #24262b;
 }
+.sub-footer{
+	position: relative;
+	left: 200px;
+	background-color: #ffffff;
+}
+#copy{
+	font-weight: 100;
+	font-size: x-small;
+}
 
-
+#us{
+	font-family: monospace;
+	position: relative;
+     left: 1100px;
+}

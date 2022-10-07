@@ -5,6 +5,7 @@ import TwitterIcon from '@mui/icons-material/Twitter';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import YouTubeIcon from '@mui/icons-material/YouTube';
+import foot from '../assets/footerlogo.svg'
 function Footer() {
   return (
     <div>
@@ -52,9 +53,9 @@ function Footer() {
   	 	</div>
   	 </div>
        <div className='followus'>
-  	 			<h4>follow NVIDIA</h4>
+  	 			<h4>Follow NVIDIA</h4>
   	 			<div class="social-links">
-  	 				<a id='pad-ic' href="#"><FacebookIcon/></a>
+  	 				<a id='pad-ic' href="https://github.com/akashbobydb/nvidia/commit/f0c120e57c95ba4587e2dee15271ddbe2c944868"><FacebookIcon/></a>
   	 				<a id='pad-ic' href="#"><TwitterIcon/></a>
   	 				<a id='pad-ic' href="#"><InstagramIcon/></a>
   	 				<a id='pad-ic' href="#"><LinkedInIcon/></a>
@@ -62,9 +63,14 @@ function Footer() {
   	 			</div>
                 </div>
   </footer>
-
-
-
+  <footer className="footer footer-center p-4 bg-base-300 text-base-content sub-footer">
+    <img src={foot} width="60px" height={25}/><br/>
+  <div >
+    <p>Privacy Policy| Manage My Privacy| Legal Accessibility| Product Security Contact</p>
+    <p id='copy'>Copyright © 2022 NVIDIA Corporation</p>
+	<p id='us'>UNITED STATES</p>
+  </div>
+</footer>
     </div>
   )
 }

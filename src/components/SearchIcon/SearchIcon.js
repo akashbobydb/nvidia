@@ -17,7 +17,14 @@ function SearchIcon() {
       </div></div>
 
     <div className="cursor-pointer select-none">
-      {isActive ? <div className='search-icon'><input type="text" /></div>:
+      {isActive ? <div className='search-icon'><input type="text" placeholder='SEARCH NVIDIA' name="fruit" list="fruits" autocomplete="off" />
+<datalist id="fruits">
+  <option>Account</option>
+  <option>Graphics Card</option>
+  <option>AI</option>
+  <option>Games</option>
+  <option>Shops</option>
+</datalist></div>:
          <div onClick={()=>{
        setIsActive(!isActive)}}></div>}
      </div>

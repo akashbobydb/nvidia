@@ -16,3 +16,7 @@ p{
 .border{
      border: 3px double whitesmoke;
 }
+.card-pos{
+    position: relative;
+    left: 90px;
+}
