@@ -12,7 +12,7 @@ import img6 from '../assets/founder.jpg'
 
 function Banne() {
   return (
-    <div className='ban'>
+    <div>
         <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -24,7 +24,7 @@ function Banne() {
   <div>
   <div class="carousel-inner ">
     <div class="carousel-item active" data-bs-interval="10000" >
-      <img src={img1} height={650} class="d-block w-100" s alt="grass"/>
+      <img src={img1} className='ban-img'  alt="grass"/>
       <div class="carousel-caption d-none d-md-block ">
         <div className='banner-position'>
         <h3 class='display-1' style={{color:"	#8fce00"}}> NVIDIA</h3>
@@ -34,14 +34,14 @@ function Banne() {
       </div>
     </div>
     <div class="carousel-item" data-bs-interval="2000">
-      <img src={img2} height={650} class="d-block w-100" alt="canvas"/>
+      <img src={img2} className='ban-img' alt="canvas"/>
       <div class="carousel-caption d-none d-md-block">
         <h5 style={{color:"white"}}>Second slide label</h5>
         <p>Some representative placeholder content for the second slide.</p>
       </div>
     </div>
     <div class="carousel-item" data-bs-interval="2000">
-      <img src={img3} height={650} class="d-block w-100" alt="rtx"/>
+      <img src={img3} className='ban-img' alt="rtx"/>
       <div class="carousel-caption d-none d-md-block">
       <div className='banner-position3'>
       <h3 class='display-1'>GeForce® 4090 Experience™</h3>
@@ -53,14 +53,14 @@ function Banne() {
       </div>
     </div>
     <div class="carousel-item" data-bs-interval="2000">
-      <img src={img4} height={650} class="d-block w-100" alt="canvas"/>
+      <img src={img4} className='ban-img' alt="canvas"/>
       <div class="carousel-caption d-none d-md-block">
         <h5>Second slide label</h5>
         <p>Some representative placeholder content for the second slide.</p>
       </div>
     </div>
     <div class="carousel-item" data-bs-interval="2000">
-      <img src={img5} height={650} class="d-block w-100" alt="canvas"/>
+      <img src={img5} className='ban-img' alt="canvas"/>
       <div class="carousel-caption d-none d-md-block">
       <div className='banner-position'>
       <h3 class='display-1'> NVIDIA</h3>
@@ -74,7 +74,7 @@ function Banne() {
     </div>
     <br/>
     <div className='fnder'>
-      <img src={img6} height='300px' width='400px' id='fnd-img' s alt="grass"/>
+      <img src={img6} height='300px' width='400px' id='fnd-img'  alt="grass"/>
         <div className='fnder-position'>
           <h1>Don’t Miss the GTC Keynote</h1>
         <h3>Jensen Huang | Founder and CEO | NVIDIA </h3>

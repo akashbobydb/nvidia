@@ -14,18 +14,18 @@ function LatestNews() {
   return (
     <div class='bg-light'><br></br><br></br>
         <h1 style={{textAlign:"center"}}><b>Latest GTC News</b></h1><br/>
-      <div class="container card-pos">
+      <div class=" container">
         <div class="row row-cols-1 row-cols-md-4 g-4">
           <div class="col ">
             <div class="card card-height">
-              <img src={c1} height="150px" class="card-img-top" alt="..." />
+              <img src={c1} id='img-height' class="card-img-top" alt="..." />
               <div class="card-body">
-                <h5 class="card-title">
+                <h6 class="card-title">
                   <b>
                     HEAVY.AI Delivers Digital Twin for Telco Network Planning
                     and Operations
                   </b>
-                </h5>
+                </h6>
                 <p class="card-text">
                 HEAVY.AI is using NVIDIA Omniverse™
 to help telcos optimize wireless site
@@ -36,16 +36,16 @@ operations.
               </div>
             </div>
           </div>
-          <div class="col">
+          <div class="col ps-3">
             <div class="card card-height">
-              <img src={c2}  height="150px" class="card-img-top" alt="..." />
+              <img src={c2}  id='img-height' class="card-img-top" alt="..." />
               <div class="card-body">
-                <h5 class="card-title">
+                <h6 class="card-title">
                   <b>
                     Fast-Track Your Speech AI With a Free Trial of NVIDIA Riva
                     on LaunchPad
                   </b>
-                </h5>
+                </h6>
                 <p class="card-text">
                 Prototype, test, and fine-tune your
 speech-based Al solutions with free
@@ -60,14 +60,14 @@ Al expert.
           </div>
           <div class="col">
             <div class="card card-height">
-              <img src={c3}  height="150px" class="card-img-top" alt="..." />
+              <img src={c3}  id='img-height' class="card-img-top" alt="..." />
               <div class="card-body">
-                <h5 class="card-title">
+                <h6 class="card-title">
                   <b>
                     Korea Telecom Trains Smart Speakers, Customer Call Centers
                     with NVIDIA AI
                   </b>
-                </h5>
+                </h6>
                 <p class="card-text">
                 South Korea's leading mobile operator
  builds billion-parameter LLMs trained
@@ -80,14 +80,14 @@ platform and NeMo Megatron.
           </div>
           <div class="col">
             <div class="card card-height">
-              <img src={c4}  height="150px" class="card-img-top" alt="..." />
+              <img src={c4}  id='img-height' class="card-img-top" alt="..." />
               <div class="card-body">
-                <h5 class="card-title">
+                <h6 class="card-title">
                   <b>
                     Experience the Rimac Nevera 3D Configurator on Omniverse
                     Cloud
                   </b>
-                </h5>
+                </h6>
                 <p class="card-text">
                 See how INVIDIA Umniverse™ Cloud
  enables Rimac to host a real-time,
@@ -105,14 +105,14 @@ configurator for interaction on every
         <div class="row row-cols-1 row-cols-md-4 g-4">
           <div class="col">
             <div class="card card-height">
-              <img src={c5}  height="150px" class="card-img-top" alt="..." />
+              <img src={c5}  id='img-height' class="card-img-top" alt="..." />
               <div class="card-body">
-                <h5 class="card-title">
+                <h6 class="card-title">
                   <b>
                     Deloitte Expands Innovative Solutions with NVIDIA Al and
                     Omniverse Platforms
                   </b>
-                </h5>
+                </h6>
                 <p class="card-text">
                 Enabling cutting-edge applications for
 enterprises, including edge Al, speech
@@ -126,11 +126,11 @@ digital twins, and more.
           </div>
           <div class="col">
             <div class="card card-height">
-              <img src={c6}  height="150px" class="card-img-top" alt="..." />
+              <img src={c6}  id='img-height' class="card-img-top" alt="..." />
               <div class="card-body">
-                <h5 class="card-title">
+                <h6 class="card-title">
                   <b>Speech AI Summit</b>
-                </h5>
+                </h6>
                 <p class="card-text">
                 Join us on November 2nd for an
  engaging online conversation with
@@ -145,14 +145,14 @@ text-to-speech (TTS) technologies.
           </div>
           <div class="col">
             <div class="card card-height">
-              <img src={c7}  height="150px" class="card-img-top" alt="..." />
+              <img src={c7}  id='img-height' class="card-img-top" alt="..." />
               <div class="card-body">
-                <h5 class="card-title">
+                <h6 class="card-title">
                   <b>
                     NVIDIA Omniverse ACE Enables Easier, Faster Deployment of
                     Interactive Avatars
                   </b>
-                </h5>
+                </h6>
                 <p class="card-text">
                 Meet Violet, an interactive Al-powered
 avatar built using the NVIDIA Tokkio
@@ -169,11 +169,11 @@ intelligent recommendations.
           </div>
           <div class="col">
             <div class="card card-height">
-              <img src={c8}  height="150px" class="card-img-top" alt="..." />
+              <img src={c8}  id='img-height' class="card-img-top" alt="..." />
               <div class="card-body">
-                <h5 class="card-title">
+                <h6 class="card-title">
                   <b>The Wheel Deal: 'Racer RTX'</b>
-                </h5>
+                </h6>
                 <p class="card-text">
                 Racer RTX is a fun, high-fidelity RC car
 experience coming this fall that allows

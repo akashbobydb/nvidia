@@ -18,15 +18,15 @@ function GameShop() {
       <h1 style={{ textAlign: "center" }}>
         <b>Gaming</b>
       </h1><br/>
-      <div class="container card-pos">
+      <div class="container ">
         <div class="row row-cols-1 row-cols-md-4 g-4">
           <div class="col ">
-            <div class="card border">
-              <img src={g1} height="150px" class="card-img-top" alt="..." />
+            <div class="card game-height">
+              <img src={g1} id='img-height'class="card-img-top" alt="..." />
               <div class="card-body">
-                <h5 class="card-title">
+                <h6 class="card-title">
                   <b>DLSS 3</b>
-                </h5>
+                </h6>
                 <p class="card-text">
                   The performance multiplier, powered by
                 </p>
@@ -34,34 +34,34 @@ function GameShop() {
             </div>
           </div>
           <div class="col">
-            <div class="card border">
-              <img src={g2} height="150px" class="card-img-top" alt="..." />
+            <div class="card game-height">
+              <img src={g2} id='img-height' class="card-img-top" alt="..." />
               <div class="card-body">
-                <h5 class="card-title">
+                <h6 class="card-title">
                   <b>Portal with RTX</b>
-                </h5>
+                </h6>
                 <p class="card-text">Reimagined with ray tracing and DLSS.</p>
               </div>
             </div>
           </div>
           <div class="col">
-            <div class="card border">
-              <img src={g3} height="150px" class="card-img-top" alt="..." />
+            <div class="card game-height">
+              <img src={g3} id='img-height' class="card-img-top" alt="..." />
               <div class="card-body">
-                <h5 class="card-title">
+                <h6 class="card-title">
                   <b>RTX. It's On.</b>
-                </h5>
+                </h6>
                 <p class="card-text">The ultimate in ray tracing and Al.</p>
               </div>
             </div>
           </div>
           <div class="col">
-            <div class="card ">
-              <img src={g4} height="150px" class="card-img-top" alt="..." />
+            <div class="card game-height ">
+              <img src={g4} id='img-height' class="card-img-top" alt="..." />
               <div class="card-body">
-                <h5 class="card-title">
+                <h6 class="card-title">
                   <b>Frames Win Games</b>
-                </h5>
+                </h6>
                 <p class="card-text">NVIDIA Reflex Available Now.</p>
               </div>
             </div>
@@ -78,11 +78,11 @@ function GameShop() {
           <div class="row row-cols-1 row-cols-md-4 g-4">
             <div class="col ">
               <div class="card shop-height">
-                <img src={s1} height="150px" class="card-img-top" alt="..." />
+                <img src={s1} id='img-height' class="card-img-top" alt="..." />
                 <div class="card-body">
-                  <h5 class="card-title">
+                  <h6 class="card-title">
                     <b>GeForce RTX Graphics Cards and Desktops</b>
-                  </h5>
+                  </h6>
                   <p class="card-text">
                     GeForce RTX graphics cards deliver ultimate platform for
                     gamers and creators. Experience ray tracing, Al- powered
@@ -93,11 +93,11 @@ function GameShop() {
             </div>
             <div class="col">
               <div class="card shop-height">
-                <img src={s2} height="150px" class="card-img-top" alt="..." />
+                <img src={s2} id='img-height' class="card-img-top" alt="..." />
                 <div class="card-body">
-                  <h5 class="card-title">
+                  <h6 class="card-title">
                     <b>GeForce RTX 30 Series Laptops</b>
-                  </h5>
+                  </h6>
                   <p class="card-text">
                     Powering the world’s fastest laptops for gamers and
                     creators. With new Al- powered Max-Q technologies that
@@ -109,11 +109,11 @@ function GameShop() {
             </div>
             <div class="col">
               <div class="card shop-height">
-                <img src={s3} height="150px" class="card-img-top" alt="..." />
+                <img src={s3} id='img-height' class="card-img-top" alt="..." />
                 <div class="card-body">
-                  <h5 class="card-title">
+                  <h6 class="card-title">
                     <b>GFN Thursday</b>
-                  </h5>
+                  </h6>
                   <p class="card-text">
                     See what's streaming this week on GeForce NOW.
                   </p>
@@ -122,11 +122,11 @@ function GameShop() {
             </div>
             <div class="col">
               <div class="card shop-height">
-                <img src={s4} height="150px" class="card-img-top" alt="..." />
+                <img src={s4} id='img-height' class="card-img-top" alt="..." />
                 <div class="card-body">
-                  <h5 class="card-title">
+                  <h6 class="card-title">
                     <b>in the NVIDIA Studio</b>
-                  </h5>
+                  </h6>
                   <p class="card-text">
                     Your weekly celebration of extraordinary artists, inspiring
                     art, and creator news.

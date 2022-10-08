@@ -1,24 +1,4 @@
-/* body::-webkit-scrollbar{
-  display: none;
-  z-index: 10000000;
-} */
-/* body {
-  
-  scrollbar-color: rgb(153, 153, 153) rgb(51, 51, 51);
-}
-body::-webkit-scrollbar {
-  overflow-y: hidden;
-  width: 10px; 
-  height: 10px; 
-}
-body::-webkit-scrollbar-thumb { 
-  background: #999;
-}
-body::-webkit-scrollbar-track { 
-  background: #333;
-}
 body{
-  -ms-overflow-style: none;
-  scrollbar-width: none;
-  overflow-y: none;
-} */
+  max-width: 1520px;
+  overflow-x: hidden;
+}

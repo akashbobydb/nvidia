@@ -4,3 +4,8 @@
 .right{
     padding-right: 170px;
 }
+.nav-pos{
+    position: fixed;
+    width: 1520px;
+    z-index: 1000;
+}

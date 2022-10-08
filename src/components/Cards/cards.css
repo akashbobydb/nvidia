@@ -1,22 +1,33 @@
 p{
     text-align: left;
-    font-size: medium;
+    font-size: 14px;
     font-weight: 300;
 }
 .card-height{
-    height: 510px;
+    height: 425px;
+    width: 250px;
+    margin-left: 80px;
     border: 1px double whitesmoke;
 
 
 }
 .shop-height{
     height: 400px;
+    width: 250px;
+    margin-left: 80px;
     border: 1px double whitesmoke;
+
 }
-.border{
-     border: 3px double whitesmoke;
-}
-.card-pos{
+/* .card-pos{
     position: relative;
-    left: 90px;
+   padding-left: 120px; 
+} */
+.game-height{
+    margin-left: 80px;
+    border: 1px double whitesmoke;
+    height: 300px;
+    width: 250px;
+}
+#img-height{
+    height: 150px;
 }

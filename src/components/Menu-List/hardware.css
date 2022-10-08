@@ -1,0 +1,37 @@
+.head{
+    display: flex;
+    margin-left: 55px;
+    
+}
+.head-inner{
+    width: 300px;
+    margin-left: 30px;
+    line-height: 35px;
+    padding-left: 0;
+}
+a{
+    font-weight: lighter;
+    font-size: smaller;
+}
+a:hover{
+    font-weight: normal;}
+    #head-main{
+        font-weight: bold;
+        font-size:smaller;
+    }
+    p{
+        margin-left: 40px;
+    }
+    .hs{
+        display: flex;
+        padding-left:67px;
+    /* margin-left: 55px; */
+    background-color:rgb(229, 232, 232);
+    height: 50px;
+    /* border: 1px solid black; */
+    }
+   a{
+    padding-left: 30px;
+    padding-top: 16px;
+    font-size: medium;
+   }

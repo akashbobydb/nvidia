@@ -15,7 +15,7 @@
     background-color: black;
     color: white;
     height: 300px;
-    width: 1520px;
+    max-width:1520px;
 }
 .fnder-position{
     display: flexbox;
@@ -43,7 +43,7 @@
     right: 200px;
     margin-bottom: 250px;
 }
-.ban::-webkit-scrollbar{
-    display: none;
-    overflow-x: hidden;
+.ban-img{
+    height: 600px;
+    width: 1520px;
 }
